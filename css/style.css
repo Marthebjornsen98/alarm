@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+header {
+  position: absolute;
+  padding-top: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  background-color: transparent !important;
+}
+
+.navbar-collapse {
+  width: 10%;
+}
+
+.logo__container {
+  width: 11%;
+  margin-right: 50px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.btn__nav {
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+.btn-outline-light {
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px solid #FF5C63;
+  width: 50%;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+* {
+  font-family: 'poppins', Arial, Helvetica;
+}
+
+.red {
+  color: #FF5C63;
+}
+
+.next-line {
+  display: block;
+}
+
+.hero__information {
+  position: absolute;
+  top: 230px;
+  left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1 {
+  font-size: 81px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.hero__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.hero__text {
+  margin-top: 40px;
+  color: #FFFFFF;
+}
+
+.hero__cta {
+  margin-top: 20px;
+  padding: 15px 45px;
+  border-radius: 50px;
+  border: #FF5C63 2px solid;
+  background-color: rgba(255, 92, 99, 0.16);
+  color: #FF5C63;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  -webkit-box-shadow: inset 0px 0px 15px 5px rgba(255, 92, 99, 0.1);
+          box-shadow: inset 0px 0px 15px 5px rgba(255, 92, 99, 0.1);
+  -webkit-box-shadow: 3px 3px 20px 5px rgba(255, 92, 99, 0.2);
+          box-shadow: 3px 3px 20px 5px rgba(255, 92, 99, 0.2);
+}
+
+.hero__icons {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.icons {
+  margin: 50px 100px 0px 0px;
+}
+/*# sourceMappingURL=style.css.map */

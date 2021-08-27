@@ -1,0 +1,46 @@
+.hero__information {
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    display: flex;
+}
+
+h1 {
+    font-size: 81px;
+    color: $white;
+    font-weight: bold;
+}
+
+.hero__img {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.hero__text {
+    margin-top: 40px;
+    color: $white;
+}
+
+.hero__cta {
+    margin-top: 20px;
+    padding: 15px 45px;
+    border-radius: 50px;
+    border: $red 2px solid;
+    background-color: rgba(255, 92, 99, 0.16);
+    color: $red;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: inset 0px 0px 15px 5px rgba(255, 92, 99, 0.1);
+    box-shadow: 3px 3px 20px 5px rgba(255, 92, 99, 0.2);
+}
+
+.hero__icons {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    margin: 50px 100px 0px 0px;
+}
