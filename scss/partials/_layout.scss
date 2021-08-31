@@ -1,13 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
 * {
-    font-family: 'poppins', Arial, Helvetica;
+  font-family: "poppins", Arial, Helvetica;
+  padding: 0;
+  margin: 0;
+}
+
+.row > *,
+.container-fluid {
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
 }
 
 .red {
-    color: $red;
+  color: $red;
 }
 
 .next-line {
-    display: block;
+  display: block;
 }

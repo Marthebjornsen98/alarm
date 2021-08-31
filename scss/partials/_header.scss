@@ -1,28 +1,26 @@
 header {
-    position: absolute;
     padding-top: 30px;
-    top: 0;
-    left: 0;
+
     width: 100%;
 }
 
-.navbar {
+.navigation {
     width: 85%;
     margin: auto;
     background-color: transparent !important;
+
+    &__container {
+        width: 11%;
+        margin-right: 50px;
+    }
+
+    &__logo {
+        width: 100%;
+    }
 }
 
 .navbar-collapse {
     width: 10%;
-}
-
-.logo__container {
-    width: 11%;
-    margin-right: 50px;
-}
-
-.logo {
-    width: 100%;
 }
 
 .btn__nav {
@@ -48,4 +46,12 @@ header {
 .btn {
     padding: 10px 30px;
     border-radius: 50px;
+}
+
+.btn:hover,
+.btn-outline-light:hover {
+    padding-top: 5px;
+    transition: 0.3s;
+    color: $white;
+    background-color: transparent;
 }
