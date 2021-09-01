@@ -2,17 +2,27 @@
 
 * {
   font-family: "poppins", Arial, Helvetica;
-  padding: 0;
-  margin: 0;
+  list-style: none;
 }
 
-.row > *,
-.container-fluid {
-  padding: 0px;
+body {
+  overflow-x: hidden !important;
 }
 
 p {
   margin: 0px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.col-sm-12 {
+  padding: 0px;
 }
 
 .red {
@@ -21,4 +31,8 @@ p {
 
 .next-line {
   display: block;
+}
+
+.google-play {
+  margin-right: 20px;
 }
